@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  
+  <title>Frontend Mentor | GitHub user search app</title>
+</head>
+<link href="index.css" rel="stylesheet" type="text/css">
+<body>
+  <main class="container">
+
+    <div class="logo-theme">
+  <h1 class="title">devfinder</h1>
+
+  <button class="light">Light 
+    <span><img src="assets/icon-sun.svg" class="sun" alt="sun" /></span>
+  </button>
+
+  <button class="dark hidden">Dark
+    <span><img src="assets/icon-moon.svg" class="moon" alt="moon" /></span>
+  </button>
+    </div>
+
+    <div class="form-container">
+  <form class="form">
+    <div class="search-img"><img class="mag-glass" src="assets/icon-search.svg" alt="magnifying glass" /></div>
+  <input type="text" id="search" class="search" placeholder="Search GitHub username...">
+  <button class="search-btn" type="submit">Search</button>
+    </form>
+  </div>
+
+    <div class="profile">
+      <div class="pic-container"><img class="profile-pic" src="assets/octocat.png" alt="cat profile picture" /></div>
+    <h2 class="name">The Octocat</h2>
+    <h4 class="username">@octocat</h4>
+    <h5 class="joined">Joined 25 Jan 2011</h5>
+    <p class="bio">This profile has no bio</p>
+
+  <div class="stats">
+  <p class="repos"><span class="heading">Repos</span> <br> 
+    8</p>
+  <p class="followers"><span class="heading fol">Followers</span> <br>
+    3938</p>
+  <p class="following"><span class="heading">Following</span> <br>
+    9</p>
+  </div>
+
+  <div class="links">
+  <p class="link location">
+    <span class="icon"><img src="assets/icon-location.svg" alt="location icon"></span>
+    San Francisco</p>
+
+    <p class="link website">
+      <span class="icon"><img src="assets/icon-website.svg" alt="website icon" /></span>
+      https://github.blog</p>
+  
+  <p class="link twitter notAvailable">
+    <span class="icon"><img src="assets/icon-twitter.svg" alt="twitter icon" /></span>
+    Not Available</p>
+
+  <p class="link company">
+      <span class="icon"><img src="assets/icon-company.svg" alt="company icon" /></span>
+      @github</p>
+
+    </div>
+
+</div>
+  </main>
+  <script type="module" src="index.js"></script>
+</body>
+</html>
